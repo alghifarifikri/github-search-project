@@ -36,7 +36,7 @@ export const PageComponent: React.FC<PageComponentProps> = ({
         </Button>
       </div>
       {search && (
-        <div className="mb-2persen mt-2persen font-gray">
+        <div className="mb-2persen font-gray">
           {" "}
           Showing users for "{search}"
         </div>
